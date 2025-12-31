@@ -60,9 +60,9 @@ if st.button("🔮 Predict Final Score"):
     st.success(f"🎯 Predicted Final Score: {prediction:.2f}")
 
     # Interpretation
-    if prediction >= 85:
+    if prediction >= 70:
         st.info("🌟 Excellent performance expected!")
-    elif prediction >= 60:
+    elif prediction >= 40:
         st.info("✅ Average to good performance expected.")
     else:
         st.warning("⚠️ Student may need academic support.")
